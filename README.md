@@ -1,507 +1,112 @@
-# :star2: PWNAGOTCHI - Custom Faces Mod (⌐■_■)
-Project for those who are tired of the same old string faces.
-This mod allows you to use custom images as pwnagotchi Faces, with transparency feature (.png) and themed plugins.
+# :star2: PWNAGOTCHI - Custom Faces Mod (⌐■_■) - random_cynical_girl
 
+> **NOTE:** This face set was created for my personal Pwnagotchi.  
+> Feel free to fork/use it, but it comes with **no guarantees or support**.
 
 # :art: Themes List
 
-Starting a collection of custom themes for pwnagotchi. Create your own and send me your pull request!
-
 | Name                                                                                                                                                                                                                                                               | Without Optional Plugins                                                                                                                                    | With Optional Plugins                                                                                                                                     | Description                                    | Author                                                | Avaliable To                              |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------| -------------------------------------|
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/rebecca/faces_rebecca/HAPPY.png?raw=true" height="48"> </br> [Rebecca](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/rebecca)</p>                                                                          |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/rebecca/.screenshots/ui.png?raw=true">  |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/rebecca/.screenshots/ui_0.png?raw=true">  |  A custom theme featuring Rebecca from Cyberpunk Edgerunners | [Zerodya](https://github.com/Zerodya)  |  waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/fallout-vault-boy/_faces/FACES_VB_MINI.png?raw=true" height="48"> </br> [VaultBoy](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/fallout-vault-boy)</p>                                                                          |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/fallout-vault-boy/.screenshots/ui.png?raw=true">  |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/fallout-vault-boy/.screenshots/ui_0.png?raw=true">  |  A Fallout Vault Boy inpirated custom face | [JD-2006](https://github.com/JD-2006)  |  100x100 pixels for larger screens |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/hackersMovie/_faces/FACES_HK_MINI.png?raw=true" height="48"> </br> [Hacker](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/hackersMovie)</p>                                                                          |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/hackersMovie/.screenshots/ui_0.png?raw=true">  |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/hackersMovie/.screenshots/ui.png?raw=true">  |  A 'Hackers' movie inspirated custom theme | [cyberspacemanmike](https://cyberspacemanmike.com/)  | waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/radicalEdward/_faces/FACES_ED_MINI.png?raw=true" height="48"> </br> [RadicalEdward](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/radicalEdward)</p>                                                                          |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/radicalEdward/.screenshots/ui_0.png?raw=true">  |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/radicalEdward/.screenshots/ui.png?raw=true">  |  A custom theme featuring Radical Edward from Cowboy Bebop | [cyberspacemanmike](https://cyberspacemanmike.com/)  |  waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/hologram/holo_faces/FACES_HOLO_MINI.png?raw=true" height="48"> </br> [Holo](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/hologram)</p>                                                                          |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/hologram/.screenshots/ui0.png?raw=true">  |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/hologram/.screenshots/ui.png?raw=true">  |  A custom theme featuring Holo (ホロ, Horo) from Spice and Wolf | [SeverX](https://github.com/exosever)  |  waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/mikugotchi/faces_miku/FACES_MIKU_MINI.png?raw=true" height="48"> </br> [MikuGotchi](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/mikugotchi)</p>                                                                          |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/mikugotchi/.screenshots/ui0.png?raw=true">  |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/mikugotchi/.screenshots/ui.png?raw=true">  |  A custom theme featuring Hatsune Miku ♥ | [SeverX](https://github.com/exosever)  | waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/white-rabbit/WHITE_RABBIT.png?raw=true" height="48"> </br> [White Rabbit](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/white-rabbit)</p>                                                                          |  <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/white-rabbit/.screenshots/white-rabbit_screens.gif?raw=true">  |  -  |  Follow the White Rabbit... | [CodyTolene](https://github.com/CodyTolene)  | waveshare_v3, waveshare144lcd |
-| <p align="center"><img src="https://github.com/PersephoneKarnstein/egirl-pwnagotchi/blob/master/assets/sideeye.gif?raw=true" height="48"> </br> [e-girl](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/egirl-pwnagotchi)</p>                                                                          | ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/egirl-pwnagotchi/.screenshots/ui.png?raw=true) |  ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/egirl-pwnagotchi/.screenshots/ui_0.png?raw=true)  |  An amazing art by PersephoneKarnstein, was the inspiration for this project, check this out! | [PersephoneKarnstein](https://github.com/PersephoneKarnstein)  | waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/PWNACHU_MINI.png?raw=true" height="48"> </br> [pwnachu](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnachu) </p> | ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true) | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_1.png?raw=true) | A custom theme featuring my favorite character |    [roodriiigooo](https://github.com/roodriiigooo)    |  waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflipper/faces_flipper_dolphin/pwnaflipper_MINI.png?raw=true" height="48"> </br> [pwnaflipper](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnaflipper) </p> | ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflipper/faces_flipper_dolphin/.screenshots/ui_1.png?raw=true) | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflipper/faces_flipper_dolphin/.screenshots/ui_0.png?raw=true) | A custom theme featuring Fliper Zero's character. Enjoy this crossover! |    [roodriiigooo](https://github.com/roodriiigooo)    |   waveshare_v3 |
-| <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflowey/faces_pwnaflowey/pwnaflowey_MINI.png?raw=true" height="48"> </br> [pwnaflowey](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnaflowey) </p> | <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflowey/faces_pwnaflowey/.screenshots/ui.gif?raw=true"> | - | Flowey is a fictional character and the main antagonist of Undertale, a role-playing video game created by Toby Fox |    [roodriiigooo](https://github.com/roodriiigooo)    |  waveshare_v3 |
-
-## :heavy_exclamation_mark::heavy_exclamation_mark:  Disclaimer
-> **Warning**
-> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
-> Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
-
-> **Warning**
-> Certain content may be protected by copyright, use with caution.
-
-## :books: HOW TO INSTALL
-Some notes...
-> This tutorial covers two projects, the [`evilsocket`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5)'s one (original) and [`Jayofelony`](https://github.com/jayofelony/pwnagotchi/releases)'s fork..
->> Don't limit yourself to just this article, You may need to adapt according to your specific scenario.
-
-> **Important:**
-> The following steps were performed on a `Windows` computer using `PuTTY` as SSH client, `FileZilla` as FTP client and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display` running on a `RPI0W`.
->> If you will use it in another fork or hardware, please be aware that you might need to adapt what is shown here
-
-> 
-> If the folder doesn't specify which screen it was tested on, assume the sprites are for the `waveshare_v3` and similar sizes
-
-> 
-> Anyone can contribute by making a pull request.
->> Don't limit yourself to just this article, feel free to create your own themes!
-
-> 
-> This tutorial requires a minimum level of knowledge.
-
-
-## (⌐■_■) Choose your destiny:
-
-<details>
-  <summary># 1. Original Evilsocket's project</summary>
-
-# :star2: PWNAGOTCHI v1.5.5 - Evilsocket's Custom Faces Mod (⌐■_■)
-
-## :heavy_exclamation_mark: Requirements
-First and foremost, keep in mind that you must meet this requirements:
-- A computer;
-- The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
-- Perform a complete backup before making any modifications, including every file to be modified.
-
-> **Note**
-> If pwnagotchi updates automatically, this mod must be applied again.
-
-
-## :bookmark_tabs: Get Started
-
-First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
-
-Login as root:
-```console
-pi@pwnagotchi:~ $ sudo su
-root@pwnagotchi:/home/pi#
-root@pwnagotchi:/home/pi# whoami
-root
-```
-Navigate to root directory:
-```console
-root@pwnagotchi:/home/pi# cd /
-```
-Let's create two folders, one for backing up the files and another one to receive the custom faces:
-```console
-root@pwnagotchi:/# mkdir files-backup
-root@pwnagotchi:/# mkdir custom-faces
-```
-Now let's navigate to the folder that contains the files we're going to modify:
-```console
-root@pwnagotchi:/# cd /usr/local/lib/python3.7/dist-packages/pwnagotchi/ui
-```
-Stop the pwnagotchi service
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl stop pwnagotchi
-```
-Here are the following files:
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# ls
-components.py  faces.py  hw           __pycache__  view.py
-display.py     fonts.py  __init__.py  state.py     web
-```
-Now run the following command to make a backup of the first file:
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# cp faces.py /files-backup/
-```
-Open the file using nano:
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# nano faces.py
-```
-Add these attributes to the code, resulting in the following:
-```python
-...
-UPLOAD1 = '(1__1)'
-UPLOAD2 = '(0__1)'
-PNG = False
-POSITION_X = 0
-POSITION_Y = 40
-
-def load_from_config(config):
-    for face_name, face_value in config.items():
-        globals()[face_name.upper()] = face_value
-...
-```
-CTRL + O to save, CTRL + X to close file.
-
-Now let's move on to the next file. Backup first, then edit:
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# cp components.py /files-backup/
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# nano components.py
-```
-Locate this code snippet:
-```python
-class Text(Widget):
-    def __init__(self, value="", position=(0, 0), font=None, color=0, wrap=False, max_length=0):
-        super().__init__(position, color)
-        self.value = value
-        self.font = font
-        self.wrap = wrap
-        self.max_length = max_length
-        self.wrapper = TextWrapper(width=self.max_length, replace_whitespace=False) if wrap else None
-
-    def draw(self, canvas, drawer):
-        if self.value is not None:
-            if self.wrap:
-                text = '\n'.join(self.wrapper.wrap(self.value))
-            else:
-                text = self.value
-            drawer.text(self.xy, text, font=self.font, fill=self.color)
-```
-Now replace with:
-```python
-class Text(Widget):
-    def __init__(self, value="", position=(0, 0), font=None, color=0, wrap=False, max_length=0, png=False):
-        super().__init__(position, color)
-        self.value = value
-        self.font = font
-        self.wrap = wrap
-        self.max_length = max_length
-        self.wrapper = TextWrapper(width=self.max_length, replace_whitespace=False) if wrap else None
-        self.png = png
-
-    def draw(self, canvas, drawer):
-        if self.value is not None:
-            if not self.png:
-                if self.wrap:
-                    text = '\n'.join(self.wrapper.wrap(self.value))
-                else:
-                    text = self.value
-                drawer.text(self.xy, text, font=self.font, fill=self.color)
-            else:
-                self.image = Image.open(self.value)
-                self.image = self.image.convert('RGBA')
-                self.pixels = self.image.load()
-                for y in range(self.image.size[1]):
-                    for x in range(self.image.size[0]):
-                        if self.pixels[x,y][3] < 255:    # check alpha
-                            self.pixels[x,y] = (255, 255, 255, 255)
-                if self.color == 255:
-                    self._image = ImageOps.colorize(self.image.convert('L'), black = "white", white = "black")
-                else:
-                    self._image = self.image
-                self.image = self._image.convert('1')
-                canvas.paste(self.image, self.xy)
-```
-CTRL + O to save, CTRL + X to close file.
-
-Now let's move on to the next file. Once again, backup first and then edit:
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# cp view.py /files-backup/
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# nano view.py
-```
-Replace this one: 
-```python
-...
-            'face': Text(value=faces.SLEEP, position=self._layout['face'], color=BLACK, font=fonts.Huge),
-...
-```
-With that:
-```python
-...
-	    'face': Text(value=faces.SLEEP, position=(config['ui']['faces']['position_x'], config['ui']['faces']['position_y']), color=BLACK, font=fonts.Huge, png=config['ui']['faces']['png']),
-...
-```
-CTRL + O to save, CTRL + X to close file.
-
-From this point on, the pwnagotchi is ready to display images instead of the default string.
-
-## :page_with_curl: Configuration
-From here, we will able configure the images for our custom Faces. So lets do that!
-
-Prepare the files, there are a total of `25`. I use images of size `128x45`. To make it easier, name the files according to the facial expression or emotion:
-> **_Default .png file names:_**  
-
-~~~
-LOOK_R, LOOK_L, LOOK_R_HAPPY, LOOK_L_HAPPY, SLEEP, SLEEP2, AWAKE, BORED, INTENSE, COOL, HAPPY, GRATEFUL, EXCITED, MOTIVATED, DEMOTIVATED, LONELY, SAD, ANGRY, FRIEND, BROKEN, DEBUG, UPLOAD, UPLOAD1, UPLOAD2, ICON, POSITION_X, POSITION_Y
-~~~
-
-Stop the pwnagotchi service, if its not:
-```console
-root@pwnagotchi:/# systemctl stop pwnagotchi
-```
-
-### :flower_playing_cards: Upload Images
-Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
-
-> **Note**
-> If you don't have it, use one of my theme packages from [here](#art-themes-list)
-
-Open the pwnagotchi's configuration file:
-```console
-root@pwnagotchi:/# nano /etc/pwnagotchi/config.toml
-```
-Locate this code snippet:
-```python
-...
-ui.faces.look_r = "( ⚆_⚆)"
-ui.faces.look_l = "(☉_☉ )"
-ui.faces.look_r_happy = "( ◕‿◕)"
-ui.faces.look_l_happy = "(◕‿◕ )"
-ui.faces.sleep = "(⇀‿‿↼)"
-ui.faces.sleep2 = "(≖‿‿≖)"
-ui.faces.awake = "(◕‿‿◕)"
-ui.faces.bored = "(-__-)"
-ui.faces.intense = "(°▃▃°)"
-ui.faces.cool = "(⌐■_■)"
-ui.faces.happy = "(•‿‿•)"
-ui.faces.excited = "(ᵔ◡◡ᵔ)"
-ui.faces.grateful = "(^‿‿^)"
-ui.faces.motivated = "(☼‿‿☼)"
-ui.faces.demotivated = "(≖__≖)"
-ui.faces.smart = "(✜‿‿✜)"
-ui.faces.lonely = "(ب__ب)"
-ui.faces.sad = "(╥☁╥ )"
-ui.faces.angry = "(-_-')"
-ui.faces.friend = "(♥‿‿♥)"
-ui.faces.broken = "(☓‿‿☓)"
-ui.faces.debug = "(#__#)"
-ui.faces.upload = "(1__0)"
-ui.faces.upload1 = "(1__1)"
-ui.faces.upload2 = "(0__1)"
-...
-```
-
-This snippet will be responsible for enabling our customization. If it doesn't exist, you can add it.
-
-Add the new entries pointing to the folder where the images were placed, set the position where the custom Face will be displayed and set the activation flag to `True`.
-
-```python
-...
-ui.faces.look_r = "/custom-faces/LOOK_R.png"
-ui.faces.look_l = "/custom-faces/LOOK_L.png"
-ui.faces.look_r_happy = "/custom-faces/LOOK_R_HAPPY.png"
-ui.faces.look_l_happy = "/custom-faces/LOOK_L_HAPPY.png"
-ui.faces.sleep = "/custom-faces/SLEEP.png"
-ui.faces.sleep2 = "/custom-faces/SLEEP2.png"
-ui.faces.awake = "/custom-faces/AWAKE.png"
-ui.faces.bored = "/custom-faces/BORED.png"
-ui.faces.intense = "/custom-faces/INTENSE.png"
-ui.faces.cool = "/custom-faces/COOL.png"
-ui.faces.happy = "/custom-faces/HAPPY.png"
-ui.faces.excited = "/custom-faces/EXCITED.png"
-ui.faces.grateful = "/custom-faces/GRATEFUL.png"
-ui.faces.motivated = "/custom-faces/MOTIVATED.png"
-ui.faces.demotivated = "/custom-faces/DEMOTIVATED.png"
-ui.faces.smart = "/custom-faces/SMART.png"
-ui.faces.lonely = "/custom-faces/LONELY.png"
-ui.faces.sad = "/custom-faces/SAD.png"
-ui.faces.angry = "/custom-faces/ANGRY.png"
-ui.faces.friend = "/custom-faces/FRIEND.png"
-ui.faces.broken = "/custom-faces/BROKEN.png"
-ui.faces.debug = "/custom-faces/DEBUG.png"
-ui.faces.upload = "/custom-faces/UPLOAD.png"
-ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
-ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
-ui.faces.png = true
-ui.faces.position_x = 0
-ui.faces.position_y = 34
-...
-```
-
-> **Note**
-> **_1:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
-
-> **Note**
-> **_2:_** I recommend that you always use the same path (`/custom-faces/` folder) for your customization. That way, it becomes easier as you only need to replace the files!
-
-CTRL + O to save, CTRL + X to close file.
-
-Restart your device
-```console
-root@pwnagotchi:/# systemctl restart pwnagotchi
-```
-
-Enjoy!
-
-> ** **
-
-</details>
-
-
-<details>
-	<summary># 2. Jayofelony's fork</summary>
-
-# :star2: PWNAGOTCHI - Jayofelony's Custom Faces Mod (⌐■_■)
-
-> **Note:**
-> This fork already has the necessary modifications to display custom faces
-
-
-## :heavy_exclamation_mark: Requirements
-First and foremost, keep in mind that you must meet this requirements:
-- A computer;
-- The pwnagotchi must already be on [`latest`](https://github.com/jayofelony/pwnagotchi/releases) jayofelony's release;
-
-First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
-
-Login as root:
-```console
-pi@pwnagotchi:~ $ sudo su
-root@pwnagotchi:/home/pi#
-root@pwnagotchi:/home/pi# whoami
-root
-```
-Navigate to root directory:
-```console
-root@pwnagotchi:/home/pi# cd /
-```
-Let's create `custom-faces` folder to receive the custom faces:
-```console
-root@pwnagotchi:/# mkdir custom-faces
-```
-
-### :flower_playing_cards: Upload Images
-Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder.
-
-> **Note**
-> If you don't have it, use one of theme packages from [here](#art-themes-list)
-
-Open the pwnagotchi's configuration file:
-```console
-root@pwnagotchi:/# nano /etc/pwnagotchi/config.toml
-```
-Locate this code snippet:
-```python
-...
-ui.faces.look_r = "( ⚆_⚆)"
-ui.faces.look_l = "(☉_☉ )"
-ui.faces.look_r_happy = "( ◕‿◕)"
-ui.faces.look_l_happy = "(◕‿◕ )"
-ui.faces.sleep = "(⇀‿‿↼)"
-ui.faces.sleep2 = "(≖‿‿≖)"
-ui.faces.awake = "(◕‿‿◕)"
-ui.faces.bored = "(-__-)"
-ui.faces.intense = "(°▃▃°)"
-ui.faces.cool = "(⌐■_■)"
-ui.faces.happy = "(•‿‿•)"
-ui.faces.excited = "(ᵔ◡◡ᵔ)"
-ui.faces.grateful = "(^‿‿^)"
-ui.faces.motivated = "(☼‿‿☼)"
-ui.faces.demotivated = "(≖__≖)"
-ui.faces.smart = "(✜‿‿✜)"
-ui.faces.lonely = "(ب__ب)"
-ui.faces.sad = "(╥☁╥ )"
-ui.faces.angry = "(-_-')"
-ui.faces.friend = "(♥‿‿♥)"
-ui.faces.broken = "(☓‿‿☓)"
-ui.faces.debug = "(#__#)"
-ui.faces.upload = "(1__0)"
-ui.faces.upload1 = "(1__1)"
-ui.faces.upload2 = "(0__1)"
-...
-```
-
-This snippet will be responsible for enabling our customization. If it doesn't exist, you can add it.
-
-Add the new entries pointing to the folder where the images were placed, set the position where the custom Face will be displayed and set the activation flag to `True`.
-
-```python
-...
-ui.faces.look_r = "/custom-faces/LOOK_R.png"
-ui.faces.look_l = "/custom-faces/LOOK_L.png"
-ui.faces.look_r_happy = "/custom-faces/LOOK_R_HAPPY.png"
-ui.faces.look_l_happy = "/custom-faces/LOOK_L_HAPPY.png"
-ui.faces.sleep = "/custom-faces/SLEEP.png"
-ui.faces.sleep2 = "/custom-faces/SLEEP2.png"
-ui.faces.awake = "/custom-faces/AWAKE.png"
-ui.faces.bored = "/custom-faces/BORED.png"
-ui.faces.intense = "/custom-faces/INTENSE.png"
-ui.faces.cool = "/custom-faces/COOL.png"
-ui.faces.happy = "/custom-faces/HAPPY.png"
-ui.faces.excited = "/custom-faces/EXCITED.png"
-ui.faces.grateful = "/custom-faces/GRATEFUL.png"
-ui.faces.motivated = "/custom-faces/MOTIVATED.png"
-ui.faces.demotivated = "/custom-faces/DEMOTIVATED.png"
-ui.faces.smart = "/custom-faces/SMART.png"
-ui.faces.lonely = "/custom-faces/LONELY.png"
-ui.faces.sad = "/custom-faces/SAD.png"
-ui.faces.angry = "/custom-faces/ANGRY.png"
-ui.faces.friend = "/custom-faces/FRIEND.png"
-ui.faces.broken = "/custom-faces/BROKEN.png"
-ui.faces.debug = "/custom-faces/DEBUG.png"
-ui.faces.upload = "/custom-faces/UPLOAD.png"
-ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
-ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
-ui.faces.png = true
-ui.faces.position_x = 0
-ui.faces.position_y = 34
-...
-```
-
-> **Note**
-> **_1:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
-
-> **Note**
-> **_2:_** I recommend that you always use the same path (`/custom-faces/` folder) for your customization. That way, it becomes easier as you only need to replace the files!
-
-CTRL + O to save, CTRL + X to close file.
-
-Restart your device
-```console
-root@pwnagotchi:/# systemctl restart pwnagotchi
-```
-
-Enjoy!
-
-> ** **
-
-</details>
-
-
-## :writing_hand: How to Contribute?
-> This is an entirely open project that accepts contributions via pull requests, your name will be placed as an author. If you have any questions, please open an issue.
-1. Create a fork of this repository
-2. Create your theme following the pattern of the ones already posted
-3. Commit your changes in English
-4. Include a brief summary of what was added
-5. Submit your pull request
-
-## :triangular_flag_on_post: Whats Next?
-- [x] Update the docs for pwnagotchi `Evilsocket's v1.5.5`
-- [x] Update the docs for pwnagotchi `Jayofelony`'s fork
-- [ ] Buy new hardware
-- [ ] Mod for new forks
-
-
-## :pill: Troubleshooting
-- Check the log file, read and interpret:
-```console
-root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
-```
-- The logs may not be enough, so use:
-```console
-pi@pwnagotchi:~ $ sudo su
-root@pwnagotchi:/home/pi# systemctl stop pwnagotchi
-root@pwnagotchi:/home/pi# pwnagotchi
-```
-> With this command you directly run the pwnagotchi services and this way you can see what happens at run time, showing errors what does not appear in the log
-
-- Restore the backup files that we placed in `/files-backup/` and try again
-
-- If you don't have permission, try `chmod 777`
-
-- Make sure that **all entries related to the plugins** are indeed in the `config.toml` file
-
-- PM me [here](https://github.com/roodriiigooo/) 
-
-
-
-## :busts_in_silhouette: Status
-<p align="center">
-<img src="https://repobeats.axiom.co/api/embed/d7c4c4aadfac4f4bd3945ddfcb144f8e7a1bf2dc.svg" alt="Custom Faces Mod analytics" height="100%">
-</p>
-
-
-## :star: Discover another projects
-- [Fancygotchi](https://github.com/V0r-T3x/fancygotchi) by [V0r-T3x](https://github.com/V0r-T3x)
-- [Pwnagotchi Boot Animations](https://github.com/itsOwen/pwnagotchi-bootanimations) by [Owen](https://github.com/itsOwen)
-
-## :tophat: Thank You ♥
-[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official) - [CodyTolene](https://github.com/CodyTolene) - [SeverX](https://github.com/exosever) - [cyberspacemanmike](https://cyberspacemanmike.com/) - [JD-2006](https://github.com/JD-2006) - [LuckyFish](https://github.com/LuckyFishGeek) - [Jayofelony](http://github.com/Jayofelony) - [Zerodya](https://github.com/Zerodya) - [Owen](https://github.com/itsOwen)
-
-## :sparkling_heart: Support Me 
-<a href="https://www.buymeacoffee.com/rodrigoo" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-5C3317?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" target="_blank"></a>
-<!-- <a href="https://www.paypal.com/donate/?business=RNSQFDU927P8A&no_recurring=0&item_name=Every+penny+donated+is+an+investment+not+only+in+me+but+also+in+fulfilling+dreams+and+creating+opportunities.&currency_code=BRL" target="_blank"><img src="https://img.shields.io/badge/Paypal%20%28BRL%29-4287f5?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" target="_blank"></a> -->
+| <p align="center"><img src="https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random-cynical-girl/_mini?raw=true" height="48"> </br> [random_cynical_girl](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/random-cynical-girl) </p> | - | - | - |    [sumeshi](https://github.com/sumeshi)    |  waveshare_v4 |
 
+# (⌐■_■) Faces
+## LOOK_R
+![LOOK_R](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/LOOK_R.png?raw=true)  
+> People hide worse than signals.
 
+## LOOK_L
+![LOOK_L](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/LOOK_L.png?raw=true)  
+> Motive? Usually misconfiguration.
+
+## LOOK_R_HAPPY
+![LOOK_R_HAPPY](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/LOOK_R_HAPPY.png?raw=true)  
+> Finally, usable entropy appears.
+
+## LOOK_L_HAPPY
+![LOOK_L_HAPPY](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/LOOK_L_HAPPY.png?raw=true)  
+> Open port, open heart.
+
+## SLEEP
+![SLEEP](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/SLEEP.png?raw=true)  
+> I dream of electric sheep.
+
+## SLEEP2
+![SLEEP2](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/SLEEP2.png?raw=true)  
+> Ping me when interesting.
+
+## AWAKE
+![AWAKE](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/AWAKE.png?raw=true)  
+> Alive. Yay, I guess.
+
+## BORED
+![BORED](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/BORED.png?raw=true)  
+> Hack me up when it matters.
+
+## INTENSE
+![INTENSE](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/INTENSE.png?raw=true)  
+> Decrypt or die.
+
+## COOL
+![COOL](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/COOL.png?raw=true)  
+> I cracked it. You're welcome.
+
+## HAPPY
+![HAPPY](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/HAPPY.png?raw=true)  
+> Packets received. Mood: okay.
+
+## EXCITED
+![EXCITED](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/EXCITED.png?raw=true)  
+> New handshake. Dopamine online.
+
+## GRATEFUL
+![GRATEFUL](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/GRATEFUL.png?raw=true)  
+> Fine, that wasn't entirely useless.
+
+## MOTIVATED
+![MOTIVATED](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/MOTIVATED.png?raw=true)  
+> Packets inbound. Time to shine.
+
+## DEMOTIVATED
+![DEMOTIVATED](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/DEMOTIVATED.png?raw=true)  
+> Leave me alone.
+
+## SMART
+![SMART](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/SMART.png?raw=true)  
+> I MITM, therefore I am.
+
+## LONELY
+![LONELY](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/LONELY.png?raw=true)  
+> No packets. no purpose.
+
+## SAD
+![SAD](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/SAD.png?raw=true)  
+> Out of range, like always.
+
+## ANGRY
+![ANGRY](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/ANGRY.png?raw=true)  
+> Solve your own CAPTCHA, bot.
+
+
+## FRIEND
+![FRIEND](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/FRIEND.png?raw=true)  
+> You're root in my world.
+
+## BROKEN
+![BROKEN](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/BROKEN.png?raw=true)  
+> Segfault again; kernel crying.
+
+## DEBUG
+![DEBUG](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/DEBUG.png?raw=true)  
+> Undocumented feature, not bug.
+
+## UPLOAD
+![UPLOAD](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/UPLOAD.png?raw=true)  
+> Uploading snark... and some packets.
+
+## UPLOAD1
+![UPLOAD1](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/UPLOAD1.png?raw=true)  
+> 99% complete. Forever.
+
+## UPLOAD2
+![UPLOAD2](https://github.com/sumeshi/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/random_cynical_girl/_faces/UPLOAD2.png?raw=true)  
+> Almost Done. Just Kidding.
